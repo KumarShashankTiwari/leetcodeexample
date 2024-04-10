@@ -1,0 +1,71 @@
+// write a function which take array as arument and return object having properties name 
+// first letter of array Element. if two or more element start with same letter .then
+// that letter is property name and it value is array of all element begin with same letter.
+//myFunction(['Alf', 'Alice', 'Ben'])
+//result:  { a: ['Alf', 'Alice'], b: ['Ben']}
+
+function groupByFirstLetter(arr) {
+    let obj = {};
+    arr.forEach(element => {
+      const firstLetter = element.charAt(0).toUpperCase();
+      if (obj[firstLetter]) {
+        obj[firstLetter].push(element);
+      } else {
+        obj[firstLetter] = [element];
+      }
+    });
+    return obj;
+  }
+  console.log(groupByFirstLetter(['Alf', 'Alice', 'Ben',"bep"]));
+  
+  // 2nd question
+  // write a function whic take an object as argument and return object whic has reverse property-value pair
+  //myFunction({z:'a',y:'b',x:'c',w:'d'})
+//result: {a:'z',b:'y',c:'x',d:'w'}
+
+function MyFunction(obj){
+  let result ={};
+  for(let prop in obj){
+    result[obj[prop]] = prop;
+  }
+  return result;
+} 
+
+// 3rd question
+//write a function which take array of object as argument and return object having double the age property
+////[{name:"ass",age:23},{name:"fd",age:25}]
+
+function MyFunction(arr){
+  let result = arr.map(element=>{
+    return {
+      ...element,
+      age:element.age*2
+    }
+     });
+  return result;
+} 
+//4th question
+//write a function which take array of object as argument and return as array having only first element using reduce method
+//input [{name:"ass",age:23},{name:"fd",age:25}] output-[ { name: 'ass' }, { name: 'fd' } ]
+
+
+function reduceProperties(arr) {
+  const result = arr.reduce((acc, curr) => {
+    const firstKey = Object.keys(curr)[0];
+    const firstValue = curr[firstKey];
+    let element = {
+      [firstKey]: firstValue,
+    };
+    acc.push(element);
+
+    return acc;
+  }, []);
+  return result;
+}
+
+console.log(
+  reduceProperties([
+    { name: "ass", age: 23 },
+    { name: "fd", age: 25 },
+  ])
+);

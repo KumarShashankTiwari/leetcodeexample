@@ -1,0 +1,24 @@
+//An Armstrong number, also known as a narcissistic number, is a number that is equal to the sum of its own digits each raised to the power of the number of digits.
+//For example, the number 153 is an Armstrong number because it has three digits and satisfies the equation:
+//1^3 + 5^3 + 3^3 = 153
+//Similarly, the number 9474 is also an Armstrong number because it has four digits and satisfies the equation:
+//9^4 + 4^4 + 7^4 + 4^4 = 9474
+
+function isArmstrongNumber(number) {
+  // convert the number to a string to find the length
+  let digits = number.toString().split('');
+  let numDigits = digits.length;
+
+  // calculate the sum of each digit raised to the power of the number of digits
+  let sum = 0;
+  for (let i = 0; i < numDigits; i++) {
+    sum += Math.pow(parseInt(digits[i]), numDigits);
+  }
+
+  // compare the sum with the original number
+  return (sum === number);
+}
+
+console.log(isArmstrongNumber(153)); // true
+console.log(isArmstrongNumber(370)); // true
+console.log(isArmstrongNumber(9474)); // true

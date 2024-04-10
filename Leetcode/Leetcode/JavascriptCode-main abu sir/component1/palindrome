@@ -1,0 +1,20 @@
+how to check given number is palindrome or not in javascript without converting it in string
+
+function isPalindrome(num) {
+  if (num < 0) { // Negative numbers cannot be palindromes
+    return false;
+  }
+
+  let original = num;
+  let reversed = 0;
+
+  while (num > 0) {
+    const digit = num % 10;
+    reversed = (reversed * 10) + digit;
+    num = Math.floor(num / 10);
+  }
+
+  return original === reversed;
+}
+
+console.log(isPalindrome(1212))

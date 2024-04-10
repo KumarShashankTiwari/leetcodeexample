@@ -1,0 +1,65 @@
+//Empty AN Array
+
+var arr = [12,3,43]
+arr.length =0;
+console.log(arr); // output -[]
+
+//Remove Falsy Values
+to remove falsy values like 0,undefined,null,NaN or false from an array, we can call the Boolean method to do this,
+since the Boolean will convert falsy values to the boolean value false.
+
+let arr =[23,false,null,undefined,NaN,0,"aas"];
+arr = arr.filter(item =>Boolean(item));
+
+console.log(arr)
+
+//Capitalize the first Letter in a String
+
+let name= "asas";
+let capitalizeName = name.charAt(0).toUppercase() + name.slice(1);
+console.log(capitalizename);
+
+//Check if a Property Exists in an Object
+
+We can use the keyword to check whether a property exists in a javascript Object
+
+const user ={
+name:"sas",
+age:23
+};
+
+console.log("name" in user) // retrun true
+console.log("salary" in user // return false
+
+//How to find if number is integer or not
+
+function isInterger(x){
+    return x%1 ===0;
+ }
+//or
+ let  isInterger = (x)=>x%1 ===0;
+ 
+ // generate random number
+ 
+ const min = 1;
+const max = 10;
+
+const randomInt = Math.floor(Math.random() * (max - min + 1) + min); 
+
+// generates a random integer between 1 and 10 (inclusive)
+console.log(randomInt); // outputs a random integer between 1 and 10
+
+//what will be output
+
+const obj = { a: 'one', b: 'two', a: 'three' }; 
+console.log(obj); // output {a: 'three', b: 'two'}
+//
+
+let a = 3;
+let b = new Number(3); 
+let c = 3;
+console.log(a == b);  //true
+console.log(a === b); // false- a is number, b is object
+console.log(b === c); // false b is nobject , c is number
+
+

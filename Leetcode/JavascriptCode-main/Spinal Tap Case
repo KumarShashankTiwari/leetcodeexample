@@ -1,0 +1,35 @@
+//Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
+//spinalCase("This Is Spinal Tap") should return the string this-is-spinal-tap.
+//Passed:spinalCase("thisIsSpinalTap") should return the string this-is-spinal-tap.
+//Passed:spinalCase("The_Andy_Griffith_Show") should return the string the-andy-griffith-show.
+
+ "\s+" means a sequence of one or more whitespace characters. The "\s" is a shorthand character class that matches any whitespace character, 
+ including spaces, tabs, and line breaks, and the "+" is a
+ quantifier that matches one or more occurrences of the preceding pattern. So "\s+" will match one or more consecutive whitespace characters.
+
+function spinalCase(str) {
+  // Create a variable for the white space and underscores.
+  var regex = /\s+|_+/g;
+
+  // Replace low-upper case to low-space-uppercase
+  str = str.replace(/([a-z])([A-Z])/g, "$1 $2");
+
+  // Replace space and underscore with -
+  return str.replace(regex, "-").toLowerCase();
+}
+
+// test here
+spinalCase("This Is Spinal Tap");
+
+
+//replace and with & note- it replace first occurance of and or element
+//The "\d" is a shorthand character class in regex that matches any digit characte
+// the "+" symbol is a quantifier that means "one or more occurrences of the preceding element"
+//. So, if the regex were actually "\d+", it would match one or more digits (0-9).
+
+const myStr ="Hey, I'm 25 and she is 31!";
+console.log(myStr.replace("and","&"));
+// replace both 25 and 31 to 22
+console.log(myStr.replace(/\d+/g,"22"));
+//interchange 25 and 31
+console.log(myStr.replace(/(\d+)([^\d]+)(\d+)/g,"$3$2$1"));

@@ -1,0 +1,14 @@
+// find the missing number in an array of 1 to 100
+
+function findMissingNumber(array){
+// calculate the sum of number from 1 to 100
+    const sum = (100 *(100+1))/2;
+
+// find the sum of array
+    const arraySum = array.reduce((total,number)=>{
+        return total+ number;
+    },0);
+
+    const missingNumber = sum - arraySum;
+    return missingNumber;
+}
