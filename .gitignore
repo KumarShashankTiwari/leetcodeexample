@@ -2,6 +2,8 @@
 
 # dependencies
 /throttling-buubling-capturin-propogation/node_modules
+/pagination/node_modules
+
 /node_modules
 /.pnp
 .pnp.js
