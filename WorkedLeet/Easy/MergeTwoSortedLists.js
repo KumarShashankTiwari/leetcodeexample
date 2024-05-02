@@ -24,14 +24,13 @@
          if(list1[i]<=list2[ji]){
             console.log("inside",list1[i],list2[ji]);  
             // temparr.push(list1[i]);
+            temparr.push(list1[i]); 
             temparr.push(list2[ji]); 
             }
             else{
              temparr.push(list1[i]); 
             }
          }
-
-
 
       }
       return temparr;
