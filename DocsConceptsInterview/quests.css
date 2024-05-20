@@ -1,0 +1,120 @@
+
+.padding{
+  padding: 10px;
+  background-color: #F9F9F8;
+}
+
+
+.headerQuest{
+    padding: 9px;
+    text-align: center;
+    color: #4fafbc !important;
+}
+
+.MuiFormControl-root {
+  font-size: 12px;
+  border: 0;
+  margin: 0;
+  display: inline-flex;
+  padding-bottom: 3rem !important;
+  position: relative;
+  min-width: 0;
+  flex-direction: column;
+  vertical-align: top;
+  width: 100%;
+}
+.bdiv{
+  margin-top: 3rem !important;
+}
+.cp{
+  padding-bottom: -2rem;
+}
+
+.total{
+  border-bottom:  1.5px solid #e0e0df;
+  /* border-bottom:  #F9F9F8; */
+  font-size: 12px;
+  padding-bottom: 3px;
+  margin-bottom: 3px;
+  color: #4fafbc !important;
+}
+
+   button {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff !important;
+    padding: 10px 25px;
+    margin: 0px;
+    border: 0px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    outline: 0px;
+}
+.bluebackground{
+  background-color: #4fafbc !important;
+}
+.whitebackground{
+  background-color: #ffffff !important;
+  color:#4fafbc !important;
+}
+
+.boxhead{
+    color:#94cddf !important;
+  }
+.sendspanright{
+  float:right;
+}
+
+.cardp{
+font-size: 12px;
+}
+.belowbuttondiv{
+  padding:1rem;
+}
+    .middle {
+     font-size: 20px !important;
+     box-sizing: border-box;
+     padding-left: 25rem;
+     padding-right: 25rem;
+     
+  }
+  .mycolin{
+    border: 1px solid grey;
+  }
+  /* Create two equal columns that floats next to each other */
+  .column {
+    text-align: left;
+    float: left;
+    width: 33%;
+    padding: 10px 10px 10px 10px;
+    margin: 20px;
+     }
+
+     .tabonetwoone {
+        width: 50%; }
+
+     .incardone{
+        border-bottom: .5px solid grey !important;
+     }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+ 
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,205 @@
+			Problem 1: What if we need to add a key in existing json array.
+			Solution 1.//If need to add new key to existing array.
+
+			let temp=[];
+			let data=[{age:30,name:"shashank"},{age:14,name:"kittu"}];
+
+			data.map((item,index)=>{
+			item["index"]=index+1;
+			});
+
+			console.log("data",data);
+			Answer :    data [
+			  { age: 30, name: false, index: 1 },
+			  { age: 14, name: false, index: 2 }
+			]
+
+			Problem 2:What if we need to change a values of some item on particular existing key in existing json array.
+			let temp=[];
+			let data=[{age:30,name:"shashank"},{age:14,name:"kittu"}];
+
+			data.map((item,index)=>{
+			item["name"]=index+1;
+			});
+
+			console.log("data",data);
+
+			Answer : data [ { age: 30, name: 1 }, { age: 14, name: 2} ]
+
+
+			Problem 3: Add a key to json.
+			let data1={age:10};
+			 data1["name"]="shahsank";
+			console.log(data1);
+			Answer :  { age: 10, name: 'shahsank' }
+
+			Problem 4: How to check all checkbox together true.
+			Solution: const allCheckHandler = () => {
+				if (setStudentArr.length > 0) {
+				  setAllChecked(!allChecked);
+				}
+
+				let temp = [];
+				studentArr.map((item) => {
+				  if (!allChecked) {
+					item.isSelected = true;
+				  } else {
+					item.isSelected = false;
+				  }
+				  temp.push(item);
+				});
+				setStudentArr(temp);
+			  };
+
+			Problem 5: How to check ONE checkbox and untrue the all checked checkbox.
+
+			Solution:  const checkBoxHandler = (id) => {
+				let temp = [];
+				studentArr.map((item) => {
+				  if (item.id === id) {
+					item.isSelected = !item.isSelected;
+				  }
+				  if (item.isSelected === false) {
+					setAllChecked(false);
+				  }
+				  temp.push(item);
+				});
+
+				setStudentArr(temp);
+			  };
+ 
+			Problem 6: Sorting on name .
+
+			Solution: const sortedList = studentArr.sort((a, b) =>
+			a.studentName.localeCompare(b.studentName)
+			);
+  
+			Problem 7: Sorting on descendingArr .
+			const descendingArr = response.data.getInvoice.sort((a, b) => {
+            return b.id - a.id;
+          });
+  
+			Problem 8:   let sortedArr = sessionArr.sort((a, b) => {
+              return parseInt(a.roll_number) - parseInt(b.roll_number);
+            });
+			Problem 9:
+			const sortedList = temp.sort((a, b) => {
+            let st = a.start_time.split(":");
+            let stm = parseInt(st[0]);
+            let ss = parseInt(st[1]);
+            let et = b.start_time.split(":");
+            let etm = parseInt(et[0]);
+            let es = parseInt(et[1]);
+            return stm - etm || ss - es;
+          });		
+			
+			Problem 10.  let temp = [];
+            temp = response.data.getClassAssignmentForReviewPending.sort(
+              function (a, b) {
+                return new Date(b.start_date) - new Date(a.start_date);
+              }
+            );		
+
+			Problem 11.   const sortedList = studentArr.sort((a, b) =>
+				a.studentName.localeCompare(b.studentName)
+				);			
+  
+	
+  
+  
+Problem 12 . Filter  const acceptedArr = arr.filter((item) => {
+              return item.status === "Accepted";
+            });  
+			Problem 13 .
+			  const filterStudentArr = StudentsArr.filter((event) => {
+    return (
+    event.student_profile.name.first_name.toLowerCase().indexOf(searchName.toLowerCase()) !== -1 &&
+    event.student_profile.email.toLowerCase().indexOf(search.toLowerCase()) !== -1 &&
+    event.login.display_id.toString().toLowerCase().indexOf(searchById.toLowerCase()) !== -1 &&
+    event.login.login_id.toString().toLowerCase().indexOf(searchByLoginId.toLowerCase()) !== -1 &&
+    event.section.grade.gradeName.toLowerCase().indexOf(searchgradename.toLowerCase()) !== -1 &&
+    event.section.name.toLowerCase().indexOf(sectionname.toLowerCase()) !== -1
+  );
+});
+
+  Problem 13 Filter
+    const filtArr = invoiceArr.filter((item) => {
+      return parseInt(item.invoice.id) === parseInt(invoiceId);
+    });
+	
+	Problem 14   setOnGoingArray(
+                response.data.getEvent.reverse().filter((item) => {
+                  return (
+                    new Date(parseInt(item.start_date)) <= new Date() &&
+                    new Date(parseInt(item.end_date)) >= new Date()
+                  );
+                })
+              );
+              setCompletedArray(
+                response.data.getEvent.reverse().filter((item) => {
+                  return new Date(parseInt(item.end_date)) < new Date();
+                })
+              );
+              setNotStartedArray(
+                response.data.getEvent.reverse().filter((item) => {
+                  return new Date(parseInt(item.start_date)) > new Date();
+                })
+              );
+	Problem 15  const newArr = AttainedArr.filter((item) => {
+      if (item.value === id) return item;
+    });
+	
+	Problem 16   return (
+              event.student_profile.name.first_name
+                .toLowerCase()
+                .includes(searchname.toLowerCase()) &&
+              id.toLowerCase().includes(searchid.toLowerCase())
+            );
+			
+			ProbLem 17 
+			       setManageExamScheduleData(
+              response.data.getExam.filter((item) => {
+                return item.status === "SCHEDULED";
+              })
+            );
+            setManageExamCompleteData(response.data.getExam);
+            response.data.getExam.filter((item) => {
+              return item.status === "COMPLETED";
+            });
+            setManageExamCancelledData(
+              response.data.getExam.filter((item) => {
+                return item.status === "CANCELLED";
+              })
+            );
+			
+			Problem 18     const filtArr = filterArr.filter((arr) => {
+            if (arr.status === "ACTIVE") {
+              return arr;
+            }
+          });
+		  
+		  Problem 19 Reverse and Filter 
+		    setUpcomingEvents(
+              response.data.getEvent.reverse().filter((item) => {
+                return new Date(parseInt(item.start_date)) > new Date();
+              })
+            );
+					Problem 20: Styles for selected Answer .
+				className="inputMarginright m-2 p-1 onHover_cursor"
+                              style={{
+                                backgroundColor:
+                                  item["answer"] !== undefined &&
+                                  item["answer"] !== ""
+                                    ? "#0070bb "
+                                    : "",
+                                color:
+                                  item["answer"] !== undefined &&
+                                  item["answer"] !== ""
+                                    ? "white "
+                                    : "",
+                              }}
+                              id={
+                                questionindex === index
+                                  ? "Selected_Card_border"
+                                  : "Card_border"
+                              }
