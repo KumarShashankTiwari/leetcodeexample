@@ -1,0 +1,8 @@
+When the engine works with variables, their lifecycle consists of the following phases:
+
+1. Declaration phase is registering a variable in the scope.
+2 .Initialization phase is allocating memory and creating a binding for the variable in the scope. At this step the variable is automatically initialized with undefined.
+3. Assignment phase is assigning a value to the initialized variable.
+
+
+A variable has unitialized state when it passed the declaration phase, yet didn't reach the initilization.
