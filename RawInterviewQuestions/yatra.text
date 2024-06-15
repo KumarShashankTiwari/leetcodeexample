@@ -1,0 +1,64 @@
+let a = {z:10,x:11,k:{n:10}}
+let b = {...a}
+b.z =11
+a.z= 12
+////
+for(let i = 0;i<2;i++){
+	setTimeout(()=> {
+		console.log(i)
+	})
+}
+
+
+////
+
+//make object with values and it ocurance
+
+console.log("Try programiz.pro");
+let num=[1,2,2,4,5,6,6]; 
+console.log('revers',num);
+  //let temp={1:1,2:2,4:1,5:1,6:2}; let single = num.sort(); console.log(single) let occuranceCheck =
+
+
+
+
+/////
+
+for( i = 0;i<2;i++){ setTimeout(()=> { console.log(i) }) }
+
+
+let mm='hello world'; let a='olleh dlrow';
+
+
+//
+
+[1,2,3,4,5]=[5,2,3,4,1]
+
+
+
+how many variables in javascriot
+functions normal vs arrow functions
+prototypes in javascript
+optimization in javascript
+event bablification
+destructuring 
+
+
+statefull and stateless components  
+dom vs virtual dom
+usestate
+useeffect
+react fragement
+why we use next js other than reactjs 
+
+
+
+so many iterations how to add: 
+solution revcursion and data structure
+event publication
+
+let a={b:{c:{d:3},d:4,e:{f:{g:{h:{i=9}}}}}}
+
+
+
+

@@ -1,0 +1,160 @@
+Americana Interview Questions
+Abrar
+
+
+Questioins
+Most recent app on which you are working
+What do you understand on responsiveness of web apps
+How you implement the responsive web design
+Context API in deep with theming web apps
+Difference between context and redux
+When to use context API
+When to use redux
+What are the types of state management library for react
+What is PWA 
+what is service workers how it's gonna use
+How you implement the offline application
+
+
+Coding Questions
+Custom filter without using by default javascript array method
+Find 2 numbers having max sum in array 
+
+Ishan
+
+
+Questioins
+Introduction
+Difference between rem and em.
+Difference between % width or %height and vh and vw
+Code Optimization techniques.
+Using Svg Images
+Using useReducerHook in Place of Multiple UseStates.
+Caching.
+SSR.
+Image optimization.
+Using Imagekit.io,lazy loading , react-optimized-image library.
+image optimization in case of Slow Speed.
+navigator.connection.effectivetype to get the network speed and then resize the image accordingly.
+How is redux better the Context.
+Middleware in rudux
+Ease of code readability.
+what is server side rendering.
+Server-side rendering (SSR) means that the content of your site is generated on the server, then sent to the browser.
+
+Shashank
+
+
+Questioins
+Tell about last project where work.
+What technologies you use there.
+How to work thinks offline mode.
+What do you mean by responsiveness. 5.How we make website responsive?
+How to optimize images in website?
+How to optimize images in low 3g speed?
+What are PWA features ?
+
+Misc	
+	
+Most recent app on which you are working	
+Any customer-facing app you worked on	
+For web apps with responsive,	
+If you need to make responsiveness using CSS	
+If you need to make responsiveness using JS	
+How we can increase the Performance of the web apps	
+Lazy loading in React	
+Code splitting in React	
+How we can implement SEO in web apps	
+Code reusability	
+About PWA. How we can make react app as PWA?	
+Media queries	
+App deployment	
+How to build React app. And what kind of files are available in the build folder?	
+
+Rajeev Ranjan
+
+
+Coding Questions
+Find max in a array
+Find 2 numbers having max sum in array 
+Write a filter function which accepts a array and filter condintion function as an argument and retruns new array
+
+Sujay	
+	
+	
+Image optimisation techniques ?
+Ans: To Optimise image we can use webpack image-loader module or we can use svg images which are smaller in size or we can use lazy loading on image
+How do we make layout of the page ?	
+Ans: For page layout we can use HTML layout elements or semantic tags such as <header>, <nav>, <section>, <aside> etc.
+What is a good practice to use in css to define height and width of any form in pixels or
+ rem & em?	Ans: Use of rem & em is considered as good practice but as per the requirements one can also use pixels
+What is rem and em ?	
+Ans: rem stands for root element and em stands for containers element in which it is contained.
+How much is 1rem or 1em if the page width is 1000pixels ?	
+Ans: 10 rem
+What is PWA ?	
+Ans: PWA (progressive web application) are created for the purpose of providing responsive environment for mobile devices and uses service worker to load content on opening application to provide better user experience.
+How service worker works ?	
+Ans: Service Worker works as an proxy sever between browser and application, by default is set as unregistered and after setting it register we alow the application manifest to store or precache the links or images on running application.
+Difference between Redux and useContext ?
+"1. redux is a state management library and useContext is a hook
+ redux is mostly used in large applications where state management of single state is required by different components while useContext is used for small applications or where two or more components require to use single state for state management."
+Why do we use Redux and not useContext in case of large applications?
+Ans: Because both have different approaches and purpose, using useContext for large applications is not prefered because then we have to create a hook or any function to make connection again and again while calling any component.
+
+
+Questioins
+Tell me about urself.
+Which version react ?
+Did you work in Legacy Redux or Redux Toolkit?
+The purpose of Context api?
+How are you using state management in React & how optimize that?
+Which library u are using  Redux or, Context?
+Knowledge checked and drilled down in Redux.
+Have u used Redux Toolkit?
+Did u work on redex or redux toolkit as well?
+difference b/x redux and redux toolkit
+What is the main purpose of thunk and server --dispach action middle ware things?
+In stead of using react hook, how we can show loader using thunk?
+Redux toolkit action methods
+What are the selectors? have u created legacy code of selector ?
+Shared the link  https://codecollab.io/@farhanihsan/Interview  for JS skills
+Async Call
+Cheked  if worked on nodejs which framework
+Given a array of object and have to show key value
+Convert object into array
+How much exp in css, scss, tailwind?
+Without usilg ltr, rtl , how we can achieve the same behaviour
+How much exp in PWA ? Use offline of service workers,to store css images
+
+Coding Questions
+
+Async error handling in js?
+Write down the code like call api wait if it response show me response else show the error
+
+Questioins	
+Used Redux Legacy or Redux Tool Kit ?	
+How good you are in CSS and SASS?	
+Centralize the box	
+Div nested tags ?	
+Align the centralized entire div for responsive design	
+Any method css propoerty flex or grid	
+What is Redux how. Optimize redux implementation	
+Use Redux for what purpose,.Is there any other library?	
+which version of react you worked on?	
+Is useNavigator  the react hook?	
+What are  hoc in redux?	
+Tell me  how we can achieve templatize usin the same codebase?	
+Diffrenet theme for customer using same code base in react	
+Have u worked matrrial ui	
+I am asking for create  theme   provider for branding , along with theme how we cal manage the different languagte	
+can we use context api for change the language	
+How we will the contxt variable , const , hoc for that?	
+Suppose we have header common how we can change the color with different purposes	
+	
+	
+Coding Questions	
+	
+Debouncing concept write a function to wait till 5 seconds	
+Difference between statefn('kk');  & statefn(val=>'kk')'	
+2nd smallest number in array assignment	

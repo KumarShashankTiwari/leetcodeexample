@@ -1,0 +1,424 @@
+Interview Questions
+
+
+
+
+Javascript main thread.
+Event loop.
+Web workers .
+Service workers.
+Debugger 
+Call stack
+Execution context 
+Temporal dead zone
+Task queue 
+
+Short circuit evaluation 
+multiple states in form name, email,password? How to stop rerendering of component
+what happens if console.log variable before declaration
+Explain Implicit type Coercion?
+"
+Begger temple questions "
+Google leetcode
+One compiler
+https://www.geeksforgeeks.org/how-to-remove-objects-from-associative-array-in-javascript/amp/
+https://stackoverflow.com/questions/46741657/what-are-the-equiv
+https://www.google.com/amp/s/www.geeksforgeeks.org/how-to-get-all-unique-values-remove-duplicates-in-a-javascript-array/amp/
+
+What is env file?
+UrlSearchParams?
+window.location.search?
+What is iframe?
+flex-grow:1,flex-basis:0
+GenSaltSync(10)
+hasSync
+createContext in react
+useContext
+https://www.freecodecamp.org/news/react-interview-questions-to-know/amp/
+https://www.freecodecamp.org/news/react-interview-questions-to-know
+
+Blob object
+Formdata.
+Object keyword in javascript .
+Array keyword in javascript. 
+
+Yupresolver
+useForm
+Watch keyword.
+DataPicker material Ui
+Timepicker material Ui
+
+Moment library 
+Ist timezone
+Ust timezone
+Linuxize time.
+Autocomplete material ui.
+Dropdown material ui.
+
+Sass vs css
+flex vs grid
+nextjs
+typescript
+storybook
+redux
+ssr feature of react js
+ssr vs csr
+webpack vs rollup
+mixin
+closure
+hoisting
+let ,var ,const
+es6
+map , filter , sort,for each
+stateleass vs statefull components
+controlled vs uncontrolled components
+promises vs async await
+
+React bootstrap
+Storybook
+Next js
+Typescript
+Webpack
+Babel
+Class vs functional components
+Types of hooks
+Usememo vs usecallback
+
+Callback
+Promises
+Aysnc await
+Call apply bind
+Closures
+Lexical scope
+Scope 
+Debouncing
+Throttling 
+Window object 
+Event listeners
+Javascript functions
+Sort map filter
+Rest qnd spread operator
+Undefined vs not defined
+Hoisting 
+Event bubbling,  capturing,  propogation
+Infinite currying
+
+Cors and preflight
+Foreach
+Set
+Prototype in javascript 
+
+#2 Thapa technical 
+
+Array reduce
+Template literals
+Let var const
+Anonymous,  old functions vs arrow functions 
+Use strict
+Arrays destructuring
+Object destructuring
+
+Math object
+New numbers and global methods
+Dates and moment
+Error handling
+
+
+Execution context snd Execution stack
+Call stack
+Hoisting 
+Scope chaining and Lexical scope
+Evr6is an object
+Array is array
+Higher order functions 
+IIFE
+Foreach
+Enumeration exponential operator 
+Event loop
+Fetchapi
+Mouse movement
+
+Others concepts 
+
+Callback vs higher order functions 
+Infinite scroll
+Switch statement
+Javascript DOM 
+Settimeout
+Random numbers
+Search and filter
+What is beN
+Enable disable right click
+
+"Pure function 
+Object is referred by memory so not show changes"
+React developer tools,
+Components 
+Debuggers 
+State , Components, store in google chrome.
+Shr/whr in react
+
+
+
+Delete
+array slice 
+Append object in array , 
+Append json with single value object.
+Apply, find, filter, finally.
+Tree shaking.
+Eslint
+Jest.
+Array.from function 
+Object.Array
+Shadowing
+Scopechaining
+Lexical scope 
+Hoisting 
+Let vs const vs var
+What is watch in javascript,
+Thread of execution. 
+Event loop
+Multi thread vs single threads in javascript. 
+How to check event listeners.
+Pwa caching 
+Service worker
+
+What is top in google chrome
+What is content scripts
+
+Preventjsinjection .js
+#Redux devtools build
+Content.bundle.js
+Pagewrap.bundle.js
+
+#Reactdeveloper tools build
+
+Script
+Prepareinjection.js
+Filesystem
+InstallHook.js
+Renderer.ja
+
+Closure
+Advantage of closure
+ Closure use cases list
+Closure Settimeout example.
+Once function
+Currying function
+
+
+
+
+
+
+ memoize
+Memoize closure
+Maintaining state in async world from closure.
+Data hiding and encapsulation from closure.
+Disadvantage of closure 
+ . Big Memory consumption , Memory leaks
+What is constructor functions in javascript 
+What is garbage collector
+Garbage collector with closure
+First class function 
+
+
+1. JRE contains all elements required to run js.
+2. It contains JS engine,  set of all API's, callbackqueue, microtaskqueue, call stack ,event loop. 
+3. Js Engine is a piece of code written in low level language. 
+4. Process. 
+a. Parsing
+b. Intepretation-Compilation(JIT)
+c. Execution. 
+
+A.Parsing. parsing breaks code into token and convert into AST Abstract Syntax Tree. To check conversion 
+
+Website : astexplorer.net
+B.Interprition with Compilation 
+
+Interpreter. It convert code into byte code which is executed.  In parallel Compiler (v8 google turbofan ) optimized machine code that executed for run much faster .
+
+Google v8 engine interpreter name is ignition 
+NOTE :Javascript is Justin time compiled language. 
+Modern Javascript engine follows Just in time compilation which done in parallel with interpretation and compilation as much as it can
+Compiler it compiles  and optimized code. Google chrome uses v8 Turbofan optimizing compiler .
+C. Execution. Execution phase has memory heap and Garbage collector and other optimization techniques. Etc
+5.Memory heap: here memory assign for variable and functions. 
+6.Also Garbage Collector(orinoco) frees memory by algorithm named
+
+Mark and Sweep Algorithm.
+
+Mark phase
+Sweep phase.
+7.Compiler do compilation Optimization. Many ex techniques. 
+Inling.
+Copy elision.
+Inline caching.
+
+8. Google chrome v8 blog need to read
+
+Child divs
+Css overlay
+Context Api
+Indexdb
+Why use useReducer
+What is caching
+Host file
+
+Dsa
+Space and time complexity analysis
+Mathematics.. factorial. Prime number , gcd,llcm, powers. 
+Easy data structure. 
+Arrays, linklist.
+Ds qlgorith.
+Search, sorting. 
+Advance
+Tree ,graphs
+
+Americana interview
+
+Tell about last project where work.
+What technologies you use there.
+How to work thinks offline mode.
+What do you mean by responsiveness. How we make website responsive?
+How to optimize images in website?
+How to optimize images in low 3g speed?
+What are PWA features ?
+
+What is responsiveness?
+Image optimization different techniques?
+Offline features of native applications. 
+
+Font scalaling
+Scaled town version images
+Image scaling
+
+What is cdn
+Browser caching
+Leverage browser cashing
+How to cache website in cdn
+Header of every file.
+Blogs on kellton how to optimize website drupal 
+
+Use only webp for images
+Pwa.
+Rem vs em
+Image optimization. 
+Sphhere from css and a line in that. 
+Border radius
+
+Aspect ratio. 
+Box sizing border box.
+Html 5 Canvas.
+Different html5 tags.
+
+What us svg.
+Flex basis.
+Seo tags of html.
+Semantic tags perfect use.
+Full height webdev
+Object fit
+
+What learned today.
+
+Pwa
+Viewport initial scale.
+Em vs rem
+Order list vs unordered list
+Accessibility 
+Mixin
+Text, transform, decoratiion ,capitalize 
+Display.
+Box model.
+Position. 
+Flex
+
+Flexbox 
+Flex basis.
+Flex grow.
+Flex shrink.
+Gap
+Writing mode
+
+Javascript 
+Webworkers
+
+Usereducer
+UseContext vs context api
+
+What is latency rate. Which framework or language dor best latency.
+Best language for multi threading.
+Without db software to create database.
+
+What is micro service architecture?
+Contanersization of microservices architecture?
+What us monolithic architecture?
+
+C++vs java for backend api.
+
+
+Aws.
+Elastic bean search .
+
+
+What is mapreduce
+
+What is gzip,deflate.
+
+What is win 32.
+
+What is useragent
+Curl vs telnet vs wget
+
+Tcp ,http ftp ,websocket
+
+How ro hide response headers for security 
+Javascript main thread.
+Event loop.
+Web workers .
+Service workers.
+Debugger 
+Call stack
+Execution context 
+Temporal dead zone
+Task queue 
+
+Short circuit evaluation 
+
+A. Caching
+
+1.Page caching
+Internal dynamic page cache.
+Internal page cache.
+2.Twig caching
+3. Bigpipe caching
+4. Views caching
+5. Php caching
+6. Mem cache
+7. File cache
+8. Redis cache
+
+B . Image optimization 
+
+1.Compression ratio
+To change ratio navigate to Image Toolkit.
+
+2.You cam change the percenatge amount and click on Save configuration 
+
+C. Use fast 404 module to reduce 404 error
+D. 
+
+Types of route
+
+Hash routes
+
+Most secuure web storager
+
+Reqct routes
+
+
+Html form vs react forms
+
+Yeild
+
+Redux saga

@@ -6,3 +6,5 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Undecla
 https://www.freecodecamp.org/news/what-is-hoisting-in-javascript-3/#:~:text=The%20variables%20are%20hoisted%20to,as%20the%20Temporal%20Dead%20Zone.&text=By%20accessing%20name%20after%20the,initialized%2C%20we%20get%20no%20errors.
 
 https://dmitripavlutin.com/variables-lifecycle-and-why-let-is-not-hoisted/
+
+https://eishta.medium.com/javascript-tricky-questions-hoisting-6df66b07334a
